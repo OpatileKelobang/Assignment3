@@ -37,7 +37,7 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    private double calculateSalary(double tax)
+    public double calculateSalary(double tax)
     {
         return getSalary() / tax;
     }
