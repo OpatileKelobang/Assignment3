@@ -10,11 +10,6 @@ public class Employee extends Person {
 
     }
 
-    public Employee(String jobTitle, double salary) {
-        this.jobTitle = jobTitle;
-        this.salary = salary;
-    }
-
     public Employee(String name, String age, String jobTitle, double salary) {
         super(name, age);
         this.jobTitle = jobTitle;
@@ -41,4 +36,6 @@ public class Employee extends Person {
     {
         return getSalary() / tax;
     }
+
+
 }
